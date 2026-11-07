@@ -1,0 +1,115 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  
+}
+.box-container:hover {
+  box-shadow:
+    rgba(134, 33, 33, 0.25) 0px 54px 55px,
+    rgba(17, 91, 220, 0.12) 0px -12px 30px,
+    rgba(221, 211, 211, 0.12) 0px 4px 6px,
+    rgba(202, 195, 195, 0.17) 0px 12px 13px,
+    rgba(211, 189, 189, 0.09) 0px -3px 5px;
+  transform: translateY(-5px);
+  border: 5px solid rgb(107, 147, 225);
+}
+
+.cards1 {
+  margin-top: 20px;
+
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0b0f19;
+  padding: 10px;
+}
+@media (min-width:768px) {
+  .cards1{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+    border-radius: 10px;
+padding: 10px;
+margin-top: 10px;
+
+  }
+  .box-container{
+    flex-wrap: wrap;
+    width: 340px;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  }
+  
+}
+.img-size {
+  height: 220px;
+  border-radius: 10px;
+}
+.img-containers {
+  height: 250px;
+  width: 290px;
+  background-color: rgb(230, 207, 121);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: center;
+}
+.cards2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 15px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.title {
+  font-size: 25px;
+}
+.para {
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.price-btn {
+  border: 0px;
+  background-color: coral;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  color: rgb(235, 237, 238);
+  font-size: 20px;
+  border: 5px solid rgb(107, 147, 225);
+  transition: all 0.5s ease;
+}
+.price-btn:hover {
+  transform: translateY(-5px);
+}
+.cart-btn {
+  border: 0px;
+  background-color: rgb(193, 246, 69);
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  border: 5px solid rgb(107, 147, 225);
+  transition: all 0.5s ease;
+}
+.cart-btn:hover {
+  transform: translateY(-5px);
+}
